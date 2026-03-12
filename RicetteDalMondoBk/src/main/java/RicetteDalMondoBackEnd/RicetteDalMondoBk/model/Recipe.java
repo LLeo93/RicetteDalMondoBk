@@ -17,8 +17,8 @@ public class Recipe {
     private String tempoPreparazione;
     private String tempoCottura;
     private String porzioni;
-    private String costoPerPersona;
-    private String difficolta;
+    private CostoPerPersona costoPerPersona;
+    private Difficolta difficolta;
     private String preparazione;
     private String categoria;
     private String imageUrl;
